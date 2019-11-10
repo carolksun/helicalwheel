@@ -324,5 +324,5 @@ slider_snap(0, input.length)
   main.variable(observer()).define(["data","slider_pos"], function(data,slider_pos){return(
 data.slice(slider_pos[0], slider_pos[1])
 )});
-  return main;
+  return main; 
 }
